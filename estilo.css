@@ -64,7 +64,7 @@ body {
     transition: 0.3s;
 }
 
-.botao-menu:hover, .active                               {
+.botao-menu:hover, .active {
     color: #fff;
     background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
 }
@@ -90,4 +90,42 @@ body {
 
 .centralizar {
     text-align: center;
+}
+
+.produtos {
+    margin: 5% 10%;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 3px;
+    box-shadow: 5px 10px 24px #00000080;
+}
+
+.break{
+    flex-basis: 100%;
+}
+
+.foto img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h2{
+    font-family: 'Comfortaa', cursive;
+    color: #333;
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.card p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333;
 }
